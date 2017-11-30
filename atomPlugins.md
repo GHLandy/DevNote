@@ -2,13 +2,17 @@
 
 > First Create: 2017-10-02 GHLandy (GHLandy@GHLandy.com)
 >
-> Last Update: 2017-10-02 GHLandy (GHLandy@GHLandy.com)
+> Last Update: 2017-11-30 GHLandy (GHLandy@GHLandy.com)
 
 正式入坑前端后，一直在使用 [Atom](https://atom.io) 编辑器，个人感觉用着还比较顺手，通过安装插件，可以更好的适应自己的使用需求。
 
 以下则是我平时用到的插件 (以字母顺序排列)，安装好之后和多数的 IDE 差不多：
 
 ---
+
+-   beautify 格式化代码
+
+    [https://github.com/Glavin001/atom-beautify.git](https://github.com/Glavin001/atom-beautify.git)
 
 -   busy-signal (linter 的依赖)
 
@@ -22,7 +26,7 @@
 
     [https://github.com/nikhilkalige/docblockr.git](https://github.com/nikhilkalige/docblockr.git)
 
--   emmet-atom 代码提示、自动补全
+-   emmet 代码提示、自动补全
 
     [https://github.com/emmetio/emmet-atom.git](https://github.com/emmetio/emmet-atom.gits)
 
@@ -34,9 +38,17 @@
 
     [https://github.com/steelbrain/intentions.git](https://github.com/steelbrain/intentions.git)
 
+-   language-babel
+
+    [https://github.com/gandm/language-babel.git](https://github.com/gandm/language-babel.git)
+
 -   language-ejs
 
     [https://github.com/darron/language-ejs.git](https://github.com/darron/language-ejs.git)
+
+-   language-markdown
+
+    [https://github.com/burodepeper/language-markdown.git](https://github.com/burodepeper/language-markdown.git)
 
 -   language-stylus
 
@@ -54,7 +66,7 @@
 
     [https://github.com/AtomLinter/linter-csslint.git](https://github.com/AtomLinter/linter-csslint.git)
 
--   linter-ejhint
+-   linter-eshint
 
     [https://github.com/AtomLinter/linter-eslint.git](https://github.com/AtomLinter/linter-eslint.git)
 
@@ -74,6 +86,10 @@
 
     [https://github.com/steelbrain/linter-ui-default.git](https://github.com/steelbrain/linter-ui-default.git)
 
+-   markdown-toc 生成 Markdown 目录
+
+    [https://github.com/nok/markdown-toc.git](https://github.com/nok/markdown-toc.git)
+
 -   minimap 编辑器显示显示当前代码位置
 
     [https://github.com/atom-minimap/minimap.git](https://github.com/atom-minimap/minimap.git)
@@ -86,10 +102,20 @@
 
     [https://github.com/abe33/atom-pigments.git](https://github.com/abe33/atom-pigments.gits)
 
--   stylus-snippets
+-   snippets-stylus
 
     [https://github.com/forsigner/atom-stylus-snippets.git](https://github.com/forsigner/atom-stylus-snippets.git)
 
+-   snippets-vue-element-ui
 
+    [https://github.com/solobat/vue-element-ui-snippets.git](https://github.com/solobat/vue-element-ui-snippets.git)
+
+-   snippets-vuejs
+
+    [https://github.com/CorentinAndre/Vuejs-snippets.git](https://github.com/CorentinAndre/Vuejs-snippets.git)
+
+-   snippets-vue-router
+
+    [https://github.com/code4mk/atom-vue-router.git](https://github.com/code4mk/atom-vue-router.git)
 
 ---

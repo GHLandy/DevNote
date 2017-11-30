@@ -8,7 +8,7 @@
 
 ## 一、BFC 是什么
 
-在解释 BFC 是什么之前，需要先介绍 Box、Formatting Context 的概念。
+在解释 BFC 是什么之前，需要先介绍 Box Formatting Context 的概念。
 
 **Box: CSS 布局的基本单位**
 

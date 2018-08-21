@@ -1,10 +1,6 @@
 # 关于 BFC (Block Formating Content)
 
-> First Create: 2017-08-27 GHLandy (GHLandy@GHLandy.com)
->
-> Last Upate: 2017-08-28 GHLandy (GHLandy@GHLandy.com)
->
-> 摘抄于: [http://www.cnblogs.com/lhb25/p/inside-block-formatting-ontext.html](http://www.cnblogs.com/lhb25/p/inside-block-formatting-ontext.html) (有删改)
+> 摘抄于: <http://www.cnblogs.com/lhb25/p/inside-block-formatting-ontext.html>
 
 ## 一、BFC 是什么
 
@@ -78,7 +74,7 @@ BFC (Block formatting context) 直译为 "块级格式化上下文"。它是一�
 
 页面：
 
-![bfc01.png](https://github.com/GHLandy/DevNote/blob/master/HTML+CSS/media/bfc/bfc01.png)
+![bfc01.png](./media/bfc/bfc01.png)
 
 ```
 每个元素的 margin box 的左边，与包含块 border box 的左边相接触 (对于从左往右的格式化，否则相反)，即使存在浮动也是如此。
@@ -104,7 +100,7 @@ BFC 的区域不会与 float box 重叠。
 
 效果如下：
 
-![bfc02.png](https://github.com/GHLandy/DevNote/blob/master/HTML+CSS/media/bfc/bfc02.png)
+![bfc02.png](./media/bfc/bfc02.png)
 
 2、清除内部浮动
 
@@ -133,7 +129,7 @@ BFC 的区域不会与 float box 重叠。
 
 页面：
 
-![bfc03.png](https://github.com/GHLandy/DevNote/blob/master/HTML+CSS/media/bfc/bfc03.png)
+![bfc03.png](./media/bfc/bfc03.png)
 
 根据 BFC 布局规则第六条：
 
@@ -151,7 +147,7 @@ BFC 的区域不会与 float box 重叠。
 
 效果如下：
 
-![bfc04.png](https://github.com/GHLandy/DevNote/blob/master/HTML+CSS/media/bfc/bfc04.png)
+![bfc04.png](./media/bfc/bfc04.png)
 
 3、防止垂直 `margin` 重叠
 
@@ -176,7 +172,7 @@ BFC 的区域不会与 float box 重叠。
 
 页面：
 
-![bfc05.png](https://github.com/GHLandy/DevNote/blob/master/HTML+CSS/media/bfc/bfc05.png)
+![bfc05.png](./media/bfc/bfc05.png)
 
 两个 `p` 之间的距离为 `100px` ，发生了 `margin` 重叠。
 
@@ -214,7 +210,7 @@ Box 垂直方向的距离由 `margin` 决定，属于同一个 BFC 的两个相�
 
 效果如下：
 
-![bfc06.png](https://github.com/GHLandy/DevNote/blob/master/HTML+CSS/media/bfc/bfc06.png)
+![bfc06.png](./media/bfc/bfc06.png)
 
 ## 四、总结
 

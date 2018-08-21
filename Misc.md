@@ -6,12 +6,12 @@
 
 ```javascript
 axios({
-  header: {
+  headers: {
     'X-Authorization': 'X-Authorization-GHLandy'
   },
   method: 'post',
   url: 'api/auth',
-  data: { }
+  data: { test: true }
 })
 ```
 
